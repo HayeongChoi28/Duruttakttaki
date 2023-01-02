@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+.nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  position: relative;
+}
+
+.login {
+  margin-left: auto;
+  margin-right: 2%;
+  margin-top: auto;
+  margin-bottom: 1%;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 38px;
+  background-color: white;
+  background-image: none;
+  color: #3a79f6;
+  border: 0.08px solid #3a79f6;
+}
+
+a {
+  text-decoration: none;
+}
+.login:link {
+  color: #3a79f6;
+}
+.login:visited {
+  color: #3a79f6;
+}
+.login:hover {
+  background-color: #3a79f6;
+  color: white;
+  cursor: pointer;
+}
+
+.intro {
+  width: 100%;
+  height: 1000px;
+  background-size: 100% 1000px;
+  background-image: url("intro.jpg");
+  background-repeat: no-repeat;
+  border-bottom: 1px solid black;
+}
+.intro-image-opacity {
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+}
+.intro-title {
+  padding-top: 15%;
+  position: relative;
+}
+.intro-subtitle {
+  position: relative;
+}
+.language-title {
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 40px;
+}
+.language {
+  width: 950px;
+  height: 900px;
+  padding-top: 15%;
+  margin: 0 auto;
+}
+.items {
+  width: 950px;
+  height: 60px;
+  padding-top: 4%;
+  display: flex;
+}
+
+.language-item {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.language-item-text {
+  padding-top: 12%;
+  padding-bottom: 12%;
+  font-size: 2rem;
+  text-align: center;
+  color: #00cfff;
+}
+.language-item-detail {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 20px;
+  color: white;
+}
+.service {
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  background-image: url("translator.jpg");
+  background-size: 100% 900px;
+  background-repeat: no-repeat;
+}
+.main-image-opacity {
+  width: 100%;
+  height: 900px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+}
+.service-title {
+  padding-top: 15%;
+  position: relative;
+}
+.service-start,
+.translator-apply {
+  padding: 0.8rem 1.4rem;
+  font-size: 1.4rem;
+  border-radius: 38px;
+  background-color: #f441a8;
+  background-image: none;
+  color: white;
+  margin-top: 5%;
+  opacity: 1;
+  position: relative;
+}
+.translator {
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  background-image: url("world.jpg");
+  background-size: 100% 900px;
+  background-repeat: no-repeat;
+}
+.translator-title {
+  padding-top: 15%;
+  position: relative;
+}
+
+.translator-apply:hover,
+.service-start:hover {
+  background-color: white;
+  color: #f441a8;
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>login</title>
+    <style>
+      @import url(login.css);
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="nav">
+        <form>
+          <select name="languageSelect" style="margin-top: 2%">
+            <option value="1">한국어</option>
+
+            <option value="2">English</option>
+          </select>
+        </form>
+      </div>
+      <div class="login">
+        <div class="companyName">
+          <a href="index.html" target="_self">
+            <img
+              src="companyName.jpg"
+              width="400px"
+              height="250px"
+              alt="companyName"
+            />
+          </a>
+        </div>
+        <div class="loginMain">
+          <form action="index.html">
+            <input type="text" placeholder="아이디" size="20" /><br /><br />
+            <input type="text" placeholder="비밀번호" size="20" maxlength="8" />
+
+            <div class="button">
+              <input type="submit" value="로그인" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

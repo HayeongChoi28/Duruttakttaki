@@ -1,0 +1,130 @@
+﻿.nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  position: relative;
+}
+
+.login {
+  margin-left: auto;
+  margin-right: 2%;
+  margin-top: auto;
+  margin-bottom: 1%;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 38px;
+  background-color: white;
+  background-image: none;
+  color: #3a79f6;
+  border: 0.08px solid #3a79f6;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.login:hover,
+.translator-apply2:hover,
+.translator-apply:hover {
+  background-color: #3a79f6;
+  color: white;
+  cursor: pointer;
+}
+
+.intro {
+  background-color: royalblue;
+  border-bottom: 1px solid black;
+  background-size: 100% 500px;
+  width: 100%;
+  height: 470px;
+}
+.main,
+.intro-align-center {
+  margin-left: 19%;
+  margin-right: 19%;
+}
+.intro-title {
+  font-weight: 600;
+  font-size: 50px;
+  padding-top: 10%;
+  color: white;
+}
+.intro-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+.translator-apply {
+  margin-left: auto;
+  margin-bottom: 5%;
+  margin-right: auto;
+
+  padding: 0.9rem 3.4rem;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 38px;
+  background-color: white;
+  background-image: none;
+  color: #3a79f6;
+  border: 0.08px solid white;
+}
+.contents {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  border-top: 1px solid white;
+}
+.contents p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-right: 1px solid white;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+div > #EN,
+#SP,
+#IN {
+  font-size: 48px;
+  color: black;
+  margin-top: 7%;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+.main-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5%;
+  padding-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+.items {
+  margin-top: 7%;
+  display: flex;
+}
+.language-item {
+  margin: 15px;
+  weight: 33%;
+  height: 250px;
+}
+.language-item-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+.language-item-detail {
+  margin-top: 10px;
+}
+.translator-apply2 {
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 38px;
+  background-color: white;
+  background-image: none;
+  color: #3a79f6;
+  border: 0.08px solid #3a79f6;
+  margin-bottom: 5%;
+}
